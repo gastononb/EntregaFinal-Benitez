@@ -3,15 +3,30 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
+    padding-right: 1.5rem;
     border-bottom: 1px solid black;
-    
+    flex-direction: column;
+}
+h1{
+    cursor: pointer;
 }
 ul{
     display: flex;
+    flex-direction: column;
 }
 li{
     list-style: none;
     margin: 1rem;
     cursor: pointer;
     font-size: larger;
+}
+/* estilos para desktop*/
+@media screen and (min-width: 632px){
+    header{
+        flex-direction: row;
+        
+    }
+    ul{
+       flex-direction: row; 
+    }
 }
