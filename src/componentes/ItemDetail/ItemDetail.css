@@ -1,0 +1,27 @@
+.divDetalles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.agregarCarrito{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+
+}
+.pContador{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.sumarRestar{
+    cursor: pointer;
+}
+.imgDetalle{
+    width: 18rem;
+}
+/* estilos para desktop*/
+.imgDetalle{
+    width: 30rem;
+}
+
