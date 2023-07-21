@@ -1,6 +1,6 @@
 .agregarCarrito{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: flex-start;
     margin: 0.5rem;
@@ -16,5 +16,16 @@
 .divContador{
     display: flex;
     align-items: center;
+    justify-content: center;
 
+}
+/*estilos para desktop*/
+@media screen and (min-width: 1024px){
+    .agregarCarrito{
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    .divContador{
+        justify-content: start;
+    }
+    
 }

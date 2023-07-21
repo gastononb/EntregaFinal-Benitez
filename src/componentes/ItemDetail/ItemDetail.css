@@ -19,9 +19,14 @@
 .ContenedorDetalles{
     display: grid;
     grid-template-rows: 1fr 1fr 2fr 1fr;
+    align-items: center;
     text-align: center;
+    margin: 1rem;
 }
-
+.terminarCompra{
+    display: flex;
+    justify-content: center;
+}
 /* estilos para desktop*/
 @media screen and (min-width: 900px){
     .divDetalles{
@@ -33,6 +38,9 @@
     text-align: start;
 
     
+}
+.terminarCompra{
+    justify-content: start;
 }
     
 }

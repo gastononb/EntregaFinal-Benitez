@@ -1,4 +1,4 @@
-header {
+.contenedorHeader{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -9,16 +9,17 @@ header {
     flex-direction: column;
 }
 
-h1 {
+.logoMenu{
     cursor: pointer;
 }
 
-ul {
+.contenedorCat{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-li {
+.cat{
     list-style: none;
     margin: 1rem;
     cursor: pointer;
@@ -38,26 +39,18 @@ li {
 
 /* estilos para desktop*/
 @media screen and (min-width: 632px) {
-    header {
+   .contenedorHeader {
         flex-direction: row;
         justify-content: space-between;
-
-    }
-
-    ul {
-        flex-direction: row;
-
-    }
-}
-
-/* estilos para desktop*/
-@media screen and (min-width: 1024px) {
-    header {
-      
         position: fixed;
         width: 100%;
         z-index: 100;
         top: 0;
+
+    }
+
+    .contenedorCat {
+        flex-direction: row;
 
     }
 }

@@ -4,16 +4,16 @@ import CartWidget from '../CartWidget/CartWidget'
 //menu
 const NavBar = () => {
   return (
-    <header>
+    <header className='contenedorHeader'>
       <Link className='link' to={'/'}>
         <h1 className='logoMenu'>TiendaPadel</h1>
       </Link>
       <nav>
-        <ul>
-          <li><NavLink className='link' activeclassname="active" to={'/categoria/1'}>Paletas</NavLink></li>
-          <li><NavLink className='link' activeclassname="active" to={'/categoria/2'}>Indumentaria</NavLink></li>
-          <li><NavLink className='link' activeclassname="active" to={'/categoria/3'}>Calzados</NavLink></li>
-          <li><NavLink className='link' activeclassname="active" to={'/categoria/4'}>Bolsos</NavLink></li>
+        <ul className='contenedorCat'>
+          <li className='cat'><NavLink className='link' activeclassname="active" to={'/categoria/1'}>Paletas</NavLink></li>
+          <li className='cat'><NavLink className='link' activeclassname="active" to={'/categoria/2'}>Indumentaria</NavLink></li>
+          <li className='cat'><NavLink className='link' activeclassname="active" to={'/categoria/3'}>Calzados</NavLink></li>
+          <li className='cat'><NavLink className='link' activeclassname="active" to={'/categoria/4'}>Bolsos</NavLink></li>
         </ul>
       </nav>
       <CartWidget />
