@@ -1,0 +1,30 @@
+.contenedorCartItem{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    margin: 1rem;
+    align-items: center;
+   
+}
+.ImgCart{
+    width: 40%;
+}
+.divDetallesCartItem{
+    display: flex;
+    flex-direction: column;
+}
+.divImgCart{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 632px) {
+    .ImgCart{
+        width: 30%;
+    }
+    .contenedorCartItem{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

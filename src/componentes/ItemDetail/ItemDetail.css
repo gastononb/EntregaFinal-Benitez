@@ -1,27 +1,40 @@
 .divDetalles{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr;
     align-items: center;
     justify-content: center;
+    margin-top: 4.5rem;
 }
-.agregarCarrito{
-    display: flex;
-    justify-content: space-around;
-    margin: 0.5rem;
 
-}
-.pContador{
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-.sumarRestar{
-    cursor: pointer;
-}
+
 .imgDetalle{
-    width: 18rem;
+    width: 60%;
+    
+    
 }
+.contenedorImg{
+    display: flex;
+    justify-content: center;
+}
+.ContenedorDetalles{
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
+    text-align: center;
+}
+
 /* estilos para desktop*/
-.imgDetalle{
-    width: 30rem;
+@media screen and (min-width: 900px){
+    .divDetalles{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .ContenedorDetalles{
+    margin-right: 1rem;
+    text-align: start;
+
+    
 }
+    
+}
+
 

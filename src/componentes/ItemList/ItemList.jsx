@@ -1,5 +1,6 @@
 import './ItemList.css'
 import Item from '../Item/Item'
+//mapeado de cada producto para renderizarlo
 
 const ItemList = ({ productos }) => {
   

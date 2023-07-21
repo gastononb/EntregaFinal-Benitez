@@ -1,6 +1,17 @@
-.divContenedorListas{
+.divContenedorListas {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.imgBanner{
+    width: 100%;
+}
+
+/* estilos para desktop*/
+@media screen and (min-width: 1024px) {
+    .divContenedorListas {
+        margin-top: 4.3rem;
+    }
 }

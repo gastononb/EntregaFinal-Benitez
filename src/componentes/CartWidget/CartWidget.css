@@ -3,3 +3,8 @@
     border-radius:100%;
     cursor: pointer;
 }
+.cantidadCarrito{
+    color: #072A50;
+    text-decoration: none;
+    border: none;
+}

@@ -1,0 +1,35 @@
+.contenedorCheckout{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.contenedorForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+     border-radius: 5px;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+.contenedorCampo{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   border-top: 1px solid black;
+   border-bottom:1px solid black;
+   padding: 0.5rem;
+   
+}
+.errorCheckout{
+    color: red;
+}
+/* estilos para desktop*/
+@media screen and (min-width: 632px) {
+    .contenedorCheckout{
+        margin-top: 5rem;
+    }
+}
